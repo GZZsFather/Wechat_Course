@@ -1,0 +1,951 @@
+[ 2018-02-25T13:10:26+08:00 ] ::1 /index.php/Student
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001250s ]
+
+[ 2018-02-25T18:13:32+08:00 ] ::1 /index.php/Student
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+NOTIC: [8] Undefined variable: Occupation /Users/karl/Desktop/wechat_course/Application/Student/Controller/IndexController.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+
+[ 2018-02-25T18:15:19+08:00 ] ::1 /index.php/Student
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+
+[ 2018-02-25T21:04:26+08:00 ] ::1 /index.php/Student/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000820s ]
+
+[ 2018-02-25T21:08:34+08:00 ] ::1 /index.php/Student.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2018-02-25T21:08:36+08:00 ] ::1 /index.php/Student/Select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `select_course` [ RunTime:0.0114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `select_course` WHERE ( xh = 15121101 and xq = '2013-2014 秋季' ) LIMIT 1   [ RunTime:0.0096s ]
+SQL: SELECT select_course.kh,course.km,teacher.xm,select_course.gh,open_course.sksj,course.xf FROM `select_course` INNER JOIN course on select_course.kh = course.kh INNER JOIN teacher on select_course.gh = teacher.gh INNER JOIN open_course on select_course.kh = open_course.kh and open_course.xq = select_course.xq  WHERE ( select_course.xh = 15121101 and select_course.xq = '2013-2014 秋季' ) LIMIT 0,10   [ RunTime:0.0307s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001822s ]
+
+[ 2018-02-25T21:09:01+08:00 ] ::1 /index.php/Student/Select/SelectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001842s ]
+SQL: SHOW COLUMNS FROM `select_course` [ RunTime:0.0339s ]
+SQL: SHOW COLUMNS FROM `open_course` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `select_course` WHERE ( xh = 15121101 and kh = 08305004 and gh = 1001 and xq = '2013-2014 秋季' ) LIMIT 1   [ RunTime:0.0128s ]
+SQL: SELECT * FROM `open_course` WHERE ( kh = 08305004 and gh = 1001 and xq = '2013-2014 秋季' ) LIMIT 1   [ RunTime:0.0420s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+
+[ 2018-02-25T21:09:25+08:00 ] ::1 /index.php/Student/Search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001654s ]
+ERR: syntax error, unexpected '$Occupation' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+
+[ 2018-02-25T21:10:01+08:00 ] ::1 /index.php/Student/Search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001565s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+NOTIC: [8] Undefined variable: count /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/cc27c3fa40c93f8eb943a0afcacece2a.php 第 208 行.
+NOTIC: [8] Undefined variable: list /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/cc27c3fa40c93f8eb943a0afcacece2a.php 第 235 行.
+NOTIC: [8] Undefined variable: page /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/cc27c3fa40c93f8eb943a0afcacece2a.php 第 246 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001757s ]
+
+[ 2018-02-25T21:10:04+08:00 ] ::1 /index.php/Student/Search/SearchCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: SHOW COLUMNS FROM `open_course` [ RunTime:0.0153s ]
+NOTIC: [8] Undefined variable: query_string /Users/karl/Desktop/wechat_course/Application/Student/Controller/SearchController.class.php 第 77 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `open_course` INNER JOIN course on open_course.kh = course.kh INNER JOIN teacher on open_course.gh = teacher.gh  WHERE open_course.xq = '2013-2014 秋季' LIMIT 1   [ RunTime:0.0498s ]
+SQL: SELECT open_course.kh,course.km,teacher.xm,teacher.gh,open_course.sksj,course.xf FROM `open_course` INNER JOIN course on open_course.kh = course.kh INNER JOIN teacher on open_course.gh = teacher.gh  WHERE open_course.xq = '2013-2014 秋季' LIMIT 0,10   [ RunTime:0.0126s ]
+NOTIC: [8] Undefined variable: query_string /Users/karl/Desktop/wechat_course/Application/Student/Controller/SearchController.class.php 第 100 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001427s ]
+
+[ 2018-02-25T21:10:10+08:00 ] ::1 /index.php/Student/Select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001248s ]
+SQL: SHOW COLUMNS FROM `select_course` [ RunTime:0.0183s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `select_course` WHERE ( xh = 15121101 and xq = '2013-2014 秋季' ) LIMIT 1   [ RunTime:0.0489s ]
+SQL: SELECT select_course.kh,course.km,teacher.xm,select_course.gh,open_course.sksj,course.xf FROM `select_course` INNER JOIN course on select_course.kh = course.kh INNER JOIN teacher on select_course.gh = teacher.gh INNER JOIN open_course on select_course.kh = open_course.kh and open_course.xq = select_course.xq  WHERE ( select_course.xh = 15121101 and select_course.xq = '2013-2014 秋季' ) LIMIT 0,10   [ RunTime:0.0456s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2018-02-25T21:10:15+08:00 ] ::1 /index.php/Student/Select/SelectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `select_course` [ RunTime:0.0175s ]
+SQL: SHOW COLUMNS FROM `open_course` [ RunTime:0.0511s ]
+SQL: SELECT * FROM `select_course` WHERE ( xh = 15121101 and kh = 08305004 and gh = 0101 and xq = '2013-2014 秋季' ) LIMIT 1   [ RunTime:0.0592s ]
+SQL: SELECT * FROM `open_course` WHERE ( kh = 08305004 and gh = 0101 and xq = '2013-2014 秋季' ) LIMIT 1   [ RunTime:0.0475s ]
+SQL: INSERT INTO `select_course` (`xh`,`kh`,`gh`,`xq`) VALUES ('15121101','08305004','0101','2013-2014 秋季') [ RunTime:0.0225s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2018-02-25T21:10:16+08:00 ] ::1 /index.php/Student/Select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `select_course` [ RunTime:0.0425s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `select_course` WHERE ( xh = 15121101 and xq = '2013-2014 秋季' ) LIMIT 1   [ RunTime:0.0185s ]
+SQL: SELECT select_course.kh,course.km,teacher.xm,select_course.gh,open_course.sksj,course.xf FROM `select_course` INNER JOIN course on select_course.kh = course.kh INNER JOIN teacher on select_course.gh = teacher.gh INNER JOIN open_course on select_course.kh = open_course.kh and open_course.xq = select_course.xq  WHERE ( select_course.xh = 15121101 and select_course.xq = '2013-2014 秋季' ) LIMIT 0,10   [ RunTime:0.0264s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2018-02-25T21:10:26+08:00 ] ::1 /index.php/Student/Search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Undefined variable: count /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/cc27c3fa40c93f8eb943a0afcacece2a.php 第 208 行.
+NOTIC: [8] Undefined variable: list /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/cc27c3fa40c93f8eb943a0afcacece2a.php 第 235 行.
+NOTIC: [8] Undefined variable: page /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/cc27c3fa40c93f8eb943a0afcacece2a.php 第 246 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2018-02-25T21:10:28+08:00 ] ::1 /index.php/Student/Search/SearchCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `open_course` [ RunTime:0.0309s ]
+NOTIC: [8] Undefined variable: query_string /Users/karl/Desktop/wechat_course/Application/Student/Controller/SearchController.class.php 第 77 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `open_course` INNER JOIN course on open_course.kh = course.kh INNER JOIN teacher on open_course.gh = teacher.gh  WHERE open_course.xq = '2013-2014 秋季' LIMIT 1   [ RunTime:0.2661s ]
+SQL: SELECT open_course.kh,course.km,teacher.xm,teacher.gh,open_course.sksj,course.xf FROM `open_course` INNER JOIN course on open_course.kh = course.kh INNER JOIN teacher on open_course.gh = teacher.gh  WHERE open_course.xq = '2013-2014 秋季' LIMIT 0,10   [ RunTime:0.0479s ]
+NOTIC: [8] Undefined variable: query_string /Users/karl/Desktop/wechat_course/Application/Student/Controller/SearchController.class.php 第 100 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001561s ]
+
+[ 2018-02-25T21:10:32+08:00 ] ::1 /index.php/Student/Select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `select_course` [ RunTime:0.0112s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `select_course` WHERE ( xh = 15121101 and xq = '2013-2014 秋季' ) LIMIT 1   [ RunTime:0.0460s ]
+SQL: SELECT select_course.kh,course.km,teacher.xm,select_course.gh,open_course.sksj,course.xf FROM `select_course` INNER JOIN course on select_course.kh = course.kh INNER JOIN teacher on select_course.gh = teacher.gh INNER JOIN open_course on select_course.kh = open_course.kh and open_course.xq = select_course.xq  WHERE ( select_course.xh = 15121101 and select_course.xq = '2013-2014 秋季' ) LIMIT 0,10   [ RunTime:0.0165s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2018-02-25T21:10:39+08:00 ] ::1 /index.php/Student/Select/SelectCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `select_course` [ RunTime:0.0122s ]
+SQL: SHOW COLUMNS FROM `open_course` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `select_course` WHERE ( xh = 15121101 and kh = 08305001 and gh = 0102 and xq = '2013-2014 秋季' ) LIMIT 1   [ RunTime:0.0457s ]
+SQL: SELECT * FROM `open_course` WHERE ( kh = 08305001 and gh = 0102 and xq = '2013-2014 秋季' ) LIMIT 1   [ RunTime:0.0389s ]
+SQL: INSERT INTO `select_course` (`xh`,`kh`,`gh`,`xq`) VALUES ('15121101','08305001','0102','2013-2014 秋季') [ RunTime:0.0650s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2018-02-25T21:10:40+08:00 ] ::1 /index.php/Student/Select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `select_course` [ RunTime:0.0141s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `select_course` WHERE ( xh = 15121101 and xq = '2013-2014 秋季' ) LIMIT 1   [ RunTime:0.0122s ]
+SQL: SELECT select_course.kh,course.km,teacher.xm,select_course.gh,open_course.sksj,course.xf FROM `select_course` INNER JOIN course on select_course.kh = course.kh INNER JOIN teacher on select_course.gh = teacher.gh INNER JOIN open_course on select_course.kh = open_course.kh and open_course.xq = select_course.xq  WHERE ( select_course.xh = 15121101 and select_course.xq = '2013-2014 秋季' ) LIMIT 0,10   [ RunTime:0.0398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001832s ]
+
+[ 2018-02-25T21:10:51+08:00 ] ::1 /index.php/Student/Select/DeleteCourse
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+SQL: SHOW COLUMNS FROM `select_course` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `select_course` WHERE ( xh = 15121101 and kh = 08305001 and gh = 0102 and xq = '2013-2014 秋季' ) LIMIT 1   [ RunTime:0.0087s ]
+NOTIC: [2] Illegal offset type in isset or empty /Users/karl/Desktop/wechat_course/ThinkPHP/Library/Think/Model.class.php 第 511 行.
+SQL: DELETE FROM `select_course` WHERE ( xh = 15121101 and kh = 08305001 and gh = 0102 and xq = '2013-2014 秋季' ) [ RunTime:0.0176s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001417s ]
+
+[ 2018-02-25T21:10:52+08:00 ] ::1 /index.php/Student/Select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `select_course` [ RunTime:0.0351s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `select_course` WHERE ( xh = 15121101 and xq = '2013-2014 秋季' ) LIMIT 1   [ RunTime:0.0102s ]
+SQL: SELECT select_course.kh,course.km,teacher.xm,select_course.gh,open_course.sksj,course.xf FROM `select_course` INNER JOIN course on select_course.kh = course.kh INNER JOIN teacher on select_course.gh = teacher.gh INNER JOIN open_course on select_course.kh = open_course.kh and open_course.xq = select_course.xq  WHERE ( select_course.xh = 15121101 and select_course.xq = '2013-2014 秋季' ) LIMIT 0,10   [ RunTime:0.0122s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2018-02-25T21:10:54+08:00 ] ::1 /index.php/Student/Search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined variable: count /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/cc27c3fa40c93f8eb943a0afcacece2a.php 第 208 行.
+NOTIC: [8] Undefined variable: list /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/cc27c3fa40c93f8eb943a0afcacece2a.php 第 235 行.
+NOTIC: [8] Undefined variable: page /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/cc27c3fa40c93f8eb943a0afcacece2a.php 第 246 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2018-02-25T21:10:55+08:00 ] ::1 /index.php/Student/Score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined variable: count /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 155 行.
+NOTIC: [8] Undefined variable: list /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 184 行.
+NOTIC: [8] Undefined variable: page /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2018-02-25T21:11:00+08:00 ] ::1 /index.php/Student/Score/GetScore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `select_course` [ RunTime:0.0146s ]
+SQL: SELECT select_course.kh,course.km,teacher.xm,select_course.gh,course.xf,select_course.pscj,select_course.kscj,select_course.zpcj FROM `select_course` INNER JOIN course on select_course.kh = course.kh INNER JOIN teacher on select_course.gh = teacher.gh  WHERE select_course.xh = '15121101' AND select_course.xq = '2012-2013 秋季'  [ RunTime:0.0394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: count /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 155 行.
+NOTIC: [8] Undefined variable: page /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2018-02-25T21:11:07+08:00 ] ::1 /index.php/Student/Search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined variable: count /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/cc27c3fa40c93f8eb943a0afcacece2a.php 第 208 行.
+NOTIC: [8] Undefined variable: list /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/cc27c3fa40c93f8eb943a0afcacece2a.php 第 235 行.
+NOTIC: [8] Undefined variable: page /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/cc27c3fa40c93f8eb943a0afcacece2a.php 第 246 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2018-02-25T21:11:09+08:00 ] ::1 /index.php/Student/Select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `select_course` [ RunTime:0.0276s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `select_course` WHERE ( xh = 15121101 and xq = '2013-2014 秋季' ) LIMIT 1   [ RunTime:0.0690s ]
+SQL: SELECT select_course.kh,course.km,teacher.xm,select_course.gh,open_course.sksj,course.xf FROM `select_course` INNER JOIN course on select_course.kh = course.kh INNER JOIN teacher on select_course.gh = teacher.gh INNER JOIN open_course on select_course.kh = open_course.kh and open_course.xq = select_course.xq  WHERE ( select_course.xh = 15121101 and select_course.xq = '2013-2014 秋季' ) LIMIT 0,10   [ RunTime:0.0169s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2018-02-25T21:11:10+08:00 ] ::1 /index.php/Student/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001735s ]
+
+[ 2018-02-25T21:11:11+08:00 ] ::1 /index.php/Student/Score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined variable: count /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 155 行.
+NOTIC: [8] Undefined variable: list /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 184 行.
+NOTIC: [8] Undefined variable: page /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2018-02-25T21:11:33+08:00 ] ::1 /index.php/Student/Score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: count /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 155 行.
+NOTIC: [8] Undefined variable: list /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 184 行.
+NOTIC: [8] Undefined variable: page /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001581s ]
+
+[ 2018-02-25T21:11:34+08:00 ] ::1 /index.php/Student/Score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: count /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 155 行.
+NOTIC: [8] Undefined variable: list /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 184 行.
+NOTIC: [8] Undefined variable: page /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2018-02-25T21:11:36+08:00 ] ::1 /index.php/Student/Score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Undefined variable: count /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 155 行.
+NOTIC: [8] Undefined variable: list /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 184 行.
+NOTIC: [8] Undefined variable: page /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2018-02-25T21:11:39+08:00 ] ::1 /index.php/Student/Score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined variable: count /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 155 行.
+NOTIC: [8] Undefined variable: list /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 184 行.
+NOTIC: [8] Undefined variable: page /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2018-02-25T21:11:40+08:00 ] ::1 /index.php/Student/Score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined variable: count /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 155 行.
+NOTIC: [8] Undefined variable: list /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 184 行.
+NOTIC: [8] Undefined variable: page /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2018-02-25T21:11:40+08:00 ] ::1 /index.php/Student/Score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined variable: count /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 155 行.
+NOTIC: [8] Undefined variable: list /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 184 行.
+NOTIC: [8] Undefined variable: page /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2018-02-25T21:11:40+08:00 ] ::1 /index.php/Student/Score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Undefined variable: count /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 155 行.
+NOTIC: [8] Undefined variable: list /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 184 行.
+NOTIC: [8] Undefined variable: page /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009557s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2018-02-25T21:11:57+08:00 ] ::1 /index.php/Student/Score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Undefined variable: count /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 155 行.
+NOTIC: [8] Undefined variable: list /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 184 行.
+NOTIC: [8] Undefined variable: page /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2018-02-25T21:11:58+08:00 ] ::1 /index.php/Student/Score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined variable: count /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 155 行.
+NOTIC: [8] Undefined variable: list /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 184 行.
+NOTIC: [8] Undefined variable: page /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002395s ]
+
+[ 2018-02-25T21:11:59+08:00 ] ::1 /index.php/Student/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2018-02-25T21:12:28+08:00 ] ::1 /index.php/Student/Select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+SQL: SHOW COLUMNS FROM `select_course` [ RunTime:0.0513s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `select_course` WHERE ( xh = 15121101 and xq = '2013-2014 秋季' ) LIMIT 1   [ RunTime:0.0112s ]
+SQL: SELECT select_course.kh,course.km,teacher.xm,select_course.gh,open_course.sksj,course.xf FROM `select_course` INNER JOIN course on select_course.kh = course.kh INNER JOIN teacher on select_course.gh = teacher.gh INNER JOIN open_course on select_course.kh = open_course.kh and open_course.xq = select_course.xq  WHERE ( select_course.xh = 15121101 and select_course.xq = '2013-2014 秋季' ) LIMIT 0,10   [ RunTime:0.0443s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001602s ]
+
+[ 2018-02-25T21:12:29+08:00 ] ::1 /index.php/Student/Search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined variable: count /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/cc27c3fa40c93f8eb943a0afcacece2a.php 第 208 行.
+NOTIC: [8] Undefined variable: list /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/cc27c3fa40c93f8eb943a0afcacece2a.php 第 235 行.
+NOTIC: [8] Undefined variable: page /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/cc27c3fa40c93f8eb943a0afcacece2a.php 第 246 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2018-02-25T21:12:30+08:00 ] ::1 /index.php/Student/Score
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined variable: count /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 155 行.
+NOTIC: [8] Undefined variable: list /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 184 行.
+NOTIC: [8] Undefined variable: page /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/887017c4557ae6ddc5636a988d793cc3.php 第 197 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2018-02-25T21:12:33+08:00 ] ::1 /index.php/Student/Search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined variable: count /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/cc27c3fa40c93f8eb943a0afcacece2a.php 第 208 行.
+NOTIC: [8] Undefined variable: list /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/cc27c3fa40c93f8eb943a0afcacece2a.php 第 235 行.
+NOTIC: [8] Undefined variable: page /Users/karl/Desktop/wechat_course/Application/Runtime/Cache/Student/cc27c3fa40c93f8eb943a0afcacece2a.php 第 246 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2018-02-25T21:12:33+08:00 ] ::1 /index.php/Student/Select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `select_course` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `select_course` WHERE ( xh = 15121101 and xq = '2013-2014 秋季' ) LIMIT 1   [ RunTime:0.0096s ]
+SQL: SELECT select_course.kh,course.km,teacher.xm,select_course.gh,open_course.sksj,course.xf FROM `select_course` INNER JOIN course on select_course.kh = course.kh INNER JOIN teacher on select_course.gh = teacher.gh INNER JOIN open_course on select_course.kh = open_course.kh and open_course.xq = select_course.xq  WHERE ( select_course.xh = 15121101 and select_course.xq = '2013-2014 秋季' ) LIMIT 0,10   [ RunTime:0.0488s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2018-02-25T21:12:34+08:00 ] ::1 /index.php/Student/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+

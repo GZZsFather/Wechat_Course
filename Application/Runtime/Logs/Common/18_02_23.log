@@ -1,0 +1,192 @@
+[ 2018-02-23T18:11:57+08:00 ] ::1 /index.php/Student
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+ERR: 无法加载模块:Student
+
+[ 2018-02-23T21:49:11+08:00 ] ::1 /index.php/assets/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:12+08:00 ] ::1 /index.php/assets/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:12+08:00 ] ::1 /index.php/assets/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:12+08:00 ] ::1 /index.php/assets/img/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:12+08:00 ] ::1 /index.php/assets/js/jquery-1.11.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:12+08:00 ] ::1 /index.php/assets/js/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:12+08:00 ] ::1 /index.php/assets/img/64-64.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:31+08:00 ] ::1 /index.php/assets/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002606s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:31+08:00 ] ::1 /index.php/assets/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:31+08:00 ] ::1 /index.php/assets/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:31+08:00 ] ::1 /index.php/assets/js/jquery-1.11.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:31+08:00 ] ::1 /index.php/assets/img/64-64.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:31+08:00 ] ::1 /index.php/assets/img/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:31+08:00 ] ::1 /index.php/assets/js/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:31+08:00 ] ::1 /index.php/assets/js/jquery-1.11.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:31+08:00 ] ::1 /index.php/assets/js/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:33+08:00 ] ::1 /index.php/assets/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:33+08:00 ] ::1 /index.php/assets/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:33+08:00 ] ::1 /index.php/assets/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004697s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:33+08:00 ] ::1 /index.php/assets/js/jquery-1.11.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002675s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:33+08:00 ] ::1 /index.php/assets/img/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:33+08:00 ] ::1 /index.php/assets/img/64-64.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:33+08:00 ] ::1 /index.php/assets/js/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:37+08:00 ] ::1 /index.php/assets/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:37+08:00 ] ::1 /index.php/assets/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:37+08:00 ] ::1 /index.php/assets/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:37+08:00 ] ::1 /index.php/assets/js/jquery-1.11.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:37+08:00 ] ::1 /index.php/assets/img/64-64.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:37+08:00 ] ::1 /index.php/assets/js/jquery-1.11.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:37+08:00 ] ::1 /index.php/assets/img/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001204s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-02-23T21:49:37+08:00 ] ::1 /index.php/assets/js/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+ERR: 无法加载模块:Assets
+

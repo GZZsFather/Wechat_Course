@@ -1,0 +1,30 @@
+[ 2018-02-24T14:05:55+08:00 ] ::1 /index.php/SearchCourses.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+ERR: 无法加载模块:SearchCourses
+
+[ 2018-02-24T14:06:03+08:00 ] ::1 /index.php/Select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+ERR: 无法加载模块:Select
+
+[ 2018-02-24T14:06:49+08:00 ] ::1 /index.php/Select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+ERR: 无法加载模块:Select
+
+[ 2018-02-24T14:06:56+08:00 ] ::1 /index.php/Select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+ERR: 无法加载模块:Select
+
+[ 2018-02-24T14:07:57+08:00 ] ::1 /index.php/index.php/Student/Select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+ERR: 无法加载模块:Index.php
+

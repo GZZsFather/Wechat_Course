@@ -1,0 +1,6 @@
+[ 2018-02-21T20:34:06+08:00 ] ::1 /index.php/Student
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+ERR: 无法加载模块:Student
+
